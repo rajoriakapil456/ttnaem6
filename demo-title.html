@@ -1,0 +1,4 @@
+<a href=${properties.linkURL}><input style="background-color: ${properties.presets @context='styleToken'}" type=button value=${properties.linkText}></a>
+<br><br>
+current time =>
+<sly data-sly-use.time="java.util.Date">${time.hours}:${time.minutes}:${time.seconds}</sly>
